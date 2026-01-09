@@ -9,7 +9,7 @@
       'window.Azure': !!window.Azure,
       'window.Azure.Storage': !!(window.Azure && window.Azure.Storage),
       'window.Azure.Storage.Blob': !!(window.Azure && window.Azure.Storage && window.Azure.Storage.Blob),
-      'window.azureStorageBlob': !!window.azureStorageBlob
+      
     });
     
     // Version 10.5.0 uses window.Azure.Storage.Blob namespace

@@ -13,7 +13,7 @@
     });
     
     // Version 10.5.0 uses window.Azure.Storage.Blob namespace
-    if (window.Azure && window.Azure.Storage && window.Azure.Storage.Blob) {
+     {
       BlobServiceClient = window.Azure.Storage.Blob.BlobServiceClient;
       BlockBlobClient = window.Azure.Storage.Blob.BlockBlobClient;
       if (BlobServiceClient && BlockBlobClient) {
